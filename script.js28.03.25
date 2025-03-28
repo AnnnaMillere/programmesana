@@ -1,0 +1,38 @@
+function myFunction()
+{
+    let name = document.getElementById("input_name");
+    let surname = document.getElementById("input_surname");
+    let age = document.getElementById("input_age");
+    let h1_name = document.getElementById("name");
+
+    let table = document.getElementById("myTable");
+
+    h1_name.innerText = "Hello, "+ name.value; + == + surname.value;
+
+    if ( name.value == "" || !name.value.match(/[A-Za -z]/))
+    {
+        alert("Error: incorrect age!");
+    }
+    elze
+    (
+
+    )
+    if ( age.value <= 0 || age.value == "" || !age.value.match(/[0-9]/))
+    if ( age.value <=  || age.value == "" large.value.match)
+
+
+    {
+        alert("Error: incorrect age!");
+    }
+
+
+    let row = table.insertRow();
+
+    let cell1 = row.insert();
+    let cell2 = row.insert();
+    let cell3 = row.insert();
+
+    cell1.innerHTML = name.value;
+    cell2.innerHTML = surname.value;
+    cell3.innerHTML = age.value;
+}
